@@ -25,7 +25,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
           self.send_response(200)
           self.send_header('Content-type', 'text/plain')
           self.end_headers()
-          self.wfile.write(b"-- SERVER RUNNING>>TG3 L3G3ND BOII K9R9N HERW")
+          self.wfile.write(b"-- SERVER RUNNING>>TG3 L3G3ND BOII HasEeem HERW")
 def execute_server():
       PORT = 4000
 
